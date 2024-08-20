@@ -9,3 +9,4 @@ git revert <Commit ID> to revert the commit and also commiting the changes
 git revert -n <Commit ID> to revert the commit and only staging the changes
 git branch to check the branches
 git checkout <branch name> to switch to the branch
+git merge <branch name> to merge the branch
