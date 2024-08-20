@@ -10,3 +10,5 @@ git revert -n <Commit ID> to revert the commit and only staging the changes
 git branch to check the branches
 git checkout <branch name> to switch to the branch
 git merge <branch name> to merge the branch
+git checkout -b <branch name> to create a branch and switch to it
+git checkout -d <branch name> to delete a branch
