@@ -351,18 +351,17 @@ def mergeSort(arr,key,des=False):
         return
     
 def shellSort(arr):
-    size=len(arr)
-    gap=size//2
-
+    gap=len(arr)//2
     while gap>0:
-        for i in range(gap,size):
-            anchor=arr[i]
+        for i in range(gap,len(arr)):
+            pivot=arr[i]
             j=i
-            while j>=gap and arr[j-gap]>anchor:
+            while j>=gap and arr[j-gap]>pivot:
                 arr[j]=arr[j-gap]
                 j-=gap
-            arr[j]=anchor
+            arr[j]=pivot
         gap=gap//2
+    return
     
 if __name__=="__main__":
     arr=[31,2,1,5,7,4,1,69]
