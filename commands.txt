@@ -1,0 +1,11 @@
+git add <File Name> to push
+git commit -m "<Message>" to commit
+git push to push to rep
+git difftool HEAD to check changes
+git status to check status
+git log to check all commit logs
+git checkout --<File Name> to revert the uncommited changes
+git revert <Commit ID> to revert the commit and also commiting the changes
+git revert -n <Commit ID> to revert the commit and only staging the changes
+git branch to check the branches
+git checkout <branch name> to switch to the branch
