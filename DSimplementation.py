@@ -365,6 +365,6 @@ def shellSort(arr):
         gap=gap//2
     
 if __name__=="__main__":
-    arr=[31,2,1,5,7,4,1,69]
+    arr=[31,2,1,5,7,4,1,69,2,3,5]
     shellSort(arr)
     print(arr)
