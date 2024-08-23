@@ -1382,4 +1382,3 @@ INSERT INTO pokemon(Number,Name,Type_1,Type_2,Total,HP,Attack,Defense,Sp_Atk,Sp_
 (1024.1,'Terapagos_Terastal_Form','Normal',NULL,600,95,95,110,105,110,85,9),
 (1024.2,'Terapagos_Stellar_Form','Normal',NULL,700,160,105,110,130,110,85,9),
 (1025,'Pecharunt','Poison','Ghost',600,88,88,160,88,88,88,9);
-SELECT * FROM pokemon;
